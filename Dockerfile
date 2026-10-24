@@ -17,4 +17,4 @@ COPY app.py .
 USER app
 
 # Дефект 2 исправлен: exec-форма CMD
-CMD ["gunicorn", "--bind", "0.0.0.0:8003", "app:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8001", "app:app"]
